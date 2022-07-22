@@ -10,7 +10,7 @@ env:
   IMAGE_REGISTRY: quay.io/${{ secrets.QUAY_USERNAME }}
   REGISTRY_USER: ${{ secrets.QUAY_USERNAME }}
   REGISTRY_PASSWORD: ${{ secrets.QUAY_PASSWORD }}
-  APP_NAME: hugo-workshop
+  APP_NAME: ottonoob
   IMAGE_TAGS: latest
 
   OPENSHIFT_SERVER: ${{ secrets.OPENSHIFT_SERVER }}
