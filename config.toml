@@ -22,7 +22,7 @@ theme = "mainroad"
   toc = true # Enable Table of Contents
   pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
   post_meta = ["author", "date", "categories", "translations"] # Order of post meta information
-  mainSections = ["blog"] # Specify section pages to show on home page and the "Recent articles" widget
+  mainSections = ["blog", "docs"] # Specify section pages to show on home page and the "Recent articles" widget
   dateformat = "2006-01-02" # Change the format of dates
   # mathjax = true # Enable MathJax
   # mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
@@ -36,7 +36,7 @@ theme = "mainroad"
 #   highlightColor = "" # Deprecated in favor of .Site.Params.style.vars.highlightColor
 
 [Params.style.vars]
-  highlightColor = "#e22d30" # Override highlight color
+  highlightColor = "#666666" # Override highlight color 666666ff
 
   # Override font-family sets
   # Take care of different quotes OR escaping symbols in these params if necessary
@@ -45,7 +45,7 @@ theme = "mainroad"
   fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
 
 [Params.logo]
-  image = "img/placeholder.png" # Logo image. Path relative to "static"
+  image = "img/ottonoob_logo.png" # Logo image. Path relative to "static"
   title = "Ottonoob" # Logo title, otherwise will use site title
   subtitle = "A futile effort at a silly endevour" # Logo subtitle
 
