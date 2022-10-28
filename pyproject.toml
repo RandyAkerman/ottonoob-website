@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ottonoob-website"
+version = "0.1.0"
+description = ""
+authors = ["Randy Akerman <randy@akerman.org>"]
+readme = "README.md"
+packages = [{include = "ottonoob_website"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Jinja2 = "^3.1.2"
+python-slugify = "^6.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
